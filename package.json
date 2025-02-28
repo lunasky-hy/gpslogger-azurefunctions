@@ -11,12 +11,15 @@
     "test": "echo \"No tests yet...\""
   },
   "dependencies": {
-    "@azure/functions": "^4.0.0"
+    "@azure/cosmos": "^4.2.0",
+    "@azure/functions": "^4.0.0",
+    "cosmosdb": "^0.0.1-security",
+    "jwt-decode": "^4.0.0"
   },
   "devDependencies": {
     "@types/node": "^20.x",
-    "typescript": "^4.0.0",
-    "rimraf": "^5.0.0"
+    "rimraf": "^5.0.0",
+    "typescript": "^4.0.0"
   },
   "main": "dist/src/{index.js,functions/*.js}"
 }
